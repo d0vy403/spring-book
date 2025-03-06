@@ -1,0 +1,43 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore workspace-related files
+*.iws
+
+# Ignore logs and temp files
+logs/
+*.log
+
+# Ignore compiled files and build artifacts
+out/
+build/
+target/
+
+# Ignore dependency caches
+*.iml
+.gradle/
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore IntelliJ-specific settings
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+
+# Ignore database settings
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/sqlDataSources.xml
+
+# Ignore misc files
+.idea/**/sonarlint/
+.idea/**/encodings.xml
+.idea/**/markdown-navigator.xml
+.idea/**/uiDesigner.xml
+.idea/**/vcs.xml
+
+# Ignore JetBrains-related files
+*.idea_modules/
+atlassian-ide-plugin.xml
