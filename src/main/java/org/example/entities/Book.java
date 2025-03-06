@@ -4,11 +4,9 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @ToString
 public class Book {
   @Id
